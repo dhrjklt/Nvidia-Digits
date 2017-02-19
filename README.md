@@ -14,6 +14,19 @@ wget http://developer.download.nvidia.com/compute/cuda/7.5/Prod/local_installers
 # Follow the procedure 
 
 Verify you have a GPU on the system and it is being detected properly
- lspci | grep -i nvidia
 
+lspci | grep -i nvidia
 
+Verify that you are running the supported OS
+
+uname -m && cat /etc/*release
+
+Verify that the system has linux kernel headers installed
+
+sudo apt-get install linux-headers-$(uname -r)
+
+Update ld-conf for the runtime to automatically find your libraries
+
+echo "/usr/local/cuda/lib64" | sudo tee /etc/ld.so.conf.d/cuda64.conf
+
+sudo ldconfig
