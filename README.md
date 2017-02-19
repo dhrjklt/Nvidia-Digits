@@ -1,7 +1,7 @@
 # Local Installation 
-Train your image database using your desktop NVIDIA-GPU
+Train your image database using your desktop NVIDIA-GPU.
 
-Get Started
+Know more: 
 
 https://github.com/NVIDIA/DIGITS/blob/master/docs/GettingStarted.md
 
