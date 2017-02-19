@@ -1,7 +1,8 @@
-# Nvidia-Digits
-Nvidia Deep Learning GPU Training System (DIGITS) installation script. 
+# Local Installation 
+Train your image database using your desktop NVIDIA-GPU
 
-To know more about Nvidia-DIGITS
+Get Started
+
 https://github.com/NVIDIA/DIGITS/blob/master/docs/GettingStarted.md
 
 Prerequisite:
